@@ -1,9 +1,9 @@
-package main
+package timecouner
 
 import (
 	"fmt"
+	"github.com/Pietroski/timecounter/timescale"
 	"testing"
-	"timecounter/timescale"
 )
 
 const LIMIT int64 = 1_000_000_000
@@ -15,8 +15,9 @@ func loop(limitIteration int64) {
 	}
 }
 
+// TestTimeCounter tests TimeCounter
 func TestTimeCounter(t *testing.T) {
-	fmt.Println("Package -> main")
+	fmt.Println("Package -> timecouner")
 
 	TimeCounter(timescale.MILLISECONDS)
 

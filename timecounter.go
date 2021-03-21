@@ -1,9 +1,9 @@
-package main
+package timecouner
 
 import (
 	"fmt"
+	"github.com/Pietroski/timecounter/timescale"
 	"time"
-	"timecounter/timescale"
 )
 
 var runningTime time.Time

@@ -1,4 +1,4 @@
-package timecouner
+package timecounter
 
 import (
 	"fmt"
@@ -17,7 +17,7 @@ func loop(limitIteration int64) {
 
 // TestTimeCounter tests TimeCounter
 func TestTimeCounter(t *testing.T) {
-	fmt.Println("Package -> timecouner")
+	fmt.Println("Package -> timecounter")
 
 	TimeCounter(timescale.MILLISECONDS)
 

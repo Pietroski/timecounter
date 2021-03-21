@@ -1,4 +1,4 @@
-package timecouner
+package timecounter
 
 import (
 	"fmt"

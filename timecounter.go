@@ -41,9 +41,9 @@ func End() {
 }
 
 // PrintTime print the time elapsed between Start() and End()
-func PrintTime(s string) {
+func PrintTime(s ...string) {
 	if len(s) > 0 {
-		fmt.Printf("%v -> %v %v\n", s, timeSpent, timeScale)
+		fmt.Printf("%v -> %v %v\n", s[0], timeSpent, timeScale)
 		return
 	}
 
